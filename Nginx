@@ -3,3 +3,4 @@ sudo service nginx start //Make sure that your server does not installed apache 
 sudo service nginx status
 cd /usr/share/nginx/html  ///Default file created by nginx
 nano index.html
+sudo nano /etc/nginx/nginx.conf  ///To check cofiguration file of nginx

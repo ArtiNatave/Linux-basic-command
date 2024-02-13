@@ -1,0 +1,5 @@
+sudo yum install nginx
+sudo service nginx start //Make sure that your server does not installed apache server previously.
+sudo service nginx status
+cd /usr/share/nginx/html  ///Default file created by nginx
+nano index.html
